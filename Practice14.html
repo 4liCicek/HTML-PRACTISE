@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Techproed Survey Form</h1>
+    </header>
+    <p>Thank you for taking the time to help us improve the platform</p> <br>
+    <form action="">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        </div>
+        <div>
+            <label for="surname">Surname</label><br>
+            <input type="text" name="surname" id="surname" placeholder="Enter Your Surname">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="abc@techproed.com">
+        </div>
+        <div>
+            <p>Which option best describes your current role?</p>
+            <select name="role" id="role">
+                <option disabled selected>Select A Role</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Worker">Worker</option>
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend Techproeducation to a friend?</p>
+            <input type="radio" name="recommend" id="recommend"><label for="yes">Definitely, Yes</label>
+            <input type="radio" name="recommend" id="recommend"><label for="maybe">Maybe</label>
+            <input type="radio" name="recommend" id="recommend"><label for="notsure">Not sure</label>
+            <input type="radio" name="recommend" id="recommend"><label for="no">No</label>
+        </div>
+        <div>
+            <p>What would you like to see improved? (Check all that apply)</p>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="Front-end Projects">Front-end
+                Projects</label> <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="Front-end Projects">Back-end
+                Projects</label> <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="Front-end Projects">Data Science</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="Front-end Projects">Additional
+                Courses</label>
+            <hr>
+        </div>
+        <div>
+            <p>Any comments or suggestions ?</p>
+            <textarea type="text" name="comment" id="comment" cols="30" rows="10"
+                placeholder="Enter your comment here... Thanks for your comments..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Send" name="send" id="send">
+        </div>
+        <hr>
+
+    </form>
+
+</body>
+
+</html>
